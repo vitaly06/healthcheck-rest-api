@@ -102,6 +102,16 @@ Expected response:
 
 ---
 
+## Tests
+
+To run tests:
+
+```sh
+go test ./...
+```
+
+---
+
 ## Build
 
 To check that the project builds correctly, run:

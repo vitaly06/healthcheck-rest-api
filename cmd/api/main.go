@@ -1,6 +1,10 @@
 package main
 
-import "github.com/gofiber/fiber/v3"
+import (
+	"log"
+
+	"github.com/gofiber/fiber/v3"
+)
 
 func main() {
 	app := fiber.New()
@@ -25,5 +29,5 @@ func main() {
 		})
 	})
 
-	app.Listen(":3000")
+	log.Fatal(app.Listen(":3000"))
 }
