@@ -6,7 +6,7 @@ This project provides basic endpoints for checking whether the service is runnin
 
 ---
 
-# Tech Stack
+## Tech Stack
 
 - Go
 - Fiber
